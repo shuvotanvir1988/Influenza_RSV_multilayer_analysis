@@ -1,0 +1,50 @@
+SESSION 26 CRISPR PROVENANCE DECISION
+VERSION 1.0
+
+STATUS: CLOSED
+
+Scientific CRISPR validation results are frozen and provenance-supported.
+
+PRESERVED:
+- original IAV-P01 Li2020 raw workbook
+- original RSV-P01/P02 Sunshine2025 raw workbook
+- raw input SHA256 records
+- prospectively frozen analysis specification
+- prospectively frozen screen-score rules
+- frozen hypothesis/input manifest
+- frozen gene-level, pathway, domain, regulatory, and sensitivity outputs
+- SHA256 records for Session26 outputs
+- frozen interim and final interpretations
+- downstream manuscript figure and integration scripts
+
+NOT RECOVERED:
+The original executable Session26 analytical scripts that generated the
+frozen CRISPR result TSV files from the raw workbooks were not recovered
+after project-wide filename, content, dependency, log, provenance, and
+execution-reference searches.
+
+IMPORTANT:
+Session36/Session42 Figure S7 generators are downstream consumers of the
+Session26 frozen CRISPR tables and MUST NOT be represented as their
+analytical producers.
+
+Session38 downstream integration scripts likewise consume frozen CRISPR
+results and are not Session26 producer scripts.
+
+FINAL CLASSIFICATION:
+ORIGINAL_EXECUTION_SCRIPT_NOT_RECOVERED
+
+PUBLIC REPOSITORY POLICY:
+Do not claim that a downstream plotting or integration script generated
+the Session26 analytical results.
+
+If an executable reconstruction is later created from the frozen
+specification and original raw data, label it explicitly:
+
+RECONSTRUCTED_REPRODUCTION_SCRIPT
+NOT ORIGINAL EXECUTION SCRIPT
+
+The archived canonical Session26 result tables and their SHA256 records
+remain the authoritative historical outputs.
+
+No frozen scientific result is changed by this provenance decision.

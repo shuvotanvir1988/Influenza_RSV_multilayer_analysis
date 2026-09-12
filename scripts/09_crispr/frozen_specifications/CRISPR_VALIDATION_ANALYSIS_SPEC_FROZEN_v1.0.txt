@@ -1,0 +1,205 @@
+SESSION 26 — CRISPR FUNCTIONAL HOST-DEPENDENCY VALIDATION
+ANALYSIS SPECIFICATION — FROZEN v1.0
+
+STATUS
+Prospective validation specification frozen before inspection of
+gene-level CRISPR results.
+
+PRIMARY SCIENTIFIC QUESTION
+Do independent human genetic perturbation screens provide functional
+support for the transcriptomic and regulatory architecture previously
+established for influenza A and RSV?
+
+GENERAL PRINCIPLE
+This is VALIDATION, not rediscovery.
+
+CRISPR results MUST NOT be used to:
+1. redefine the frozen 170-gene architecture;
+2. add or remove genes from any frozen signature;
+3. redefine regulatory drivers;
+4. redefine pathway hypotheses;
+5. select transcriptomic candidates retrospectively.
+
+============================================================
+FROZEN GENE-LEVEL HYPOTHESES
+============================================================
+
+PRIMARY SET 1
+Replicated shared infection architecture
+N = 170 genes
+
+PRIMARY SET 2
+Shared core
+N = 130 genes
+
+SECONDARY SET
+Influenza-amplified shared program
+N = 37 genes
+
+DESCRIPTIVE SET
+RSV-amplified shared program
+N = 3 genes
+
+The RSV-amplified N=3 set will not be interpreted using conventional
+standalone enrichment significance as a primary inferential test.
+Individual-gene evidence will be reported descriptively.
+
+============================================================
+REGULATORY HYPOTHESES
+============================================================
+
+Previously frozen regulatory-driver results will be tested without
+re-selection based on CRISPR results.
+
+Primary regulatory validation:
+- high-confidence regulatory drivers
+- frozen TF-target relationships
+
+Secondary regulatory validation:
+- high-confidence pathogen-biased drivers
+- regulator target-set enrichment
+
+A transcription factor does not need to itself be a CRISPR hit for its
+regulatory program to receive functional support.
+
+============================================================
+PATHWAY HYPOTHESES
+============================================================
+
+Previously frozen pathway hypotheses and seven biological domains will
+be evaluated.
+
+No pathway may be promoted to the preregistered set because it appears
+interesting in CRISPR results.
+
+============================================================
+PRIMARY CRISPR STATISTICAL ANALYSIS
+============================================================
+
+Where complete genome-wide gene scores are available, the PRIMARY
+analysis is rank-based enrichment of frozen gene sets against the
+complete CRISPR ranking.
+
+Primary gene sets:
+1. frozen 170-gene architecture
+2. frozen 130-gene shared core
+
+Rank-based analysis is preferred over arbitrary binary hit thresholds.
+
+============================================================
+SECONDARY ANALYSES
+============================================================
+
+1. Study-defined CRISPR hit overlap.
+2. Fisher exact / odds-ratio analysis where a valid genome-wide
+   background can be defined.
+3. Empirical permutation/null testing.
+4. Influenza-amplified 37-gene enrichment.
+5. Frozen pathway-level convergence.
+6. Frozen regulator-target enrichment.
+7. Cross-screen replication.
+8. Sensitivity to CRISPR hit thresholds.
+9. Sensitivity to alternative screen phenotypes where available.
+10. Individual-gene evidence tables.
+
+============================================================
+DIRECTION-AWARE INTERPRETATION
+============================================================
+
+Transcript induction is NOT assumed to imply proviral function.
+
+Functional evidence will be classified as:
+
+A. PROVIRAL DEPENDENCY
+Loss/repression of the gene reduces productive infection, viral
+replication, viral entry, or infection-associated phenotype.
+
+B. ANTIVIRAL RESTRICTION
+Loss/repression increases infection, or activation/overexpression
+reduces infection, consistent with antiviral activity.
+
+C. CONTEXT-DEPENDENT
+Direction differs across screens, cell systems, strains, perturbation
+modalities, or phenotypes.
+
+D. NO FUNCTIONAL SUPPORT
+Gene is adequately measurable/testable but shows no meaningful
+perturbational evidence.
+
+E. UNEVALUABLE
+Gene is absent, inadequately represented, unmapped, filtered, or
+otherwise not testable in the relevant screen.
+
+============================================================
+VIRUS-SPECIFIC ANALYSIS ORDER
+============================================================
+
+Influenza A and RSV will first be analyzed independently.
+
+No combined influenza-RSV functional conclusion will be made until
+virus-specific analyses are frozen.
+
+============================================================
+CROSS-SCREEN REPLICATION
+============================================================
+
+When multiple eligible screens exist, reproducibility across
+independent screens will be prioritized over effect magnitude in a
+single screen.
+
+Differences in:
+- cell type
+- virus strain
+- MOI
+- CRISPR modality
+- screen phenotype
+- selection timing
+will be retained as biological/contextual information rather than
+silently harmonized.
+
+============================================================
+MULTIMODAL INTEGRATION
+============================================================
+
+CRISPR evidence will be integrated with Paper 1 only AFTER the
+virus-specific CRISPR analyses are complete.
+
+Final evidence categories may incorporate:
+- discovery/replicated microarray transcriptomics
+- independent bulk RNA-seq
+- single-cell RNA-seq
+- proteomics
+- regulatory-driver evidence
+- CRISPR perturbation evidence
+
+Negative and null CRISPR results will be preserved.
+
+============================================================
+RSV DECISION RULE
+============================================================
+
+Strong functional support:
+retain RSV confidently; any SARS-CoV-2 extension should be framed as
+cross-virus generalization.
+
+Mixed functional support:
+retain RSV with appropriately narrowed mechanistic claims; cross-virus
+generalization may be considered.
+
+No meaningful functional support:
+reassess RSV-specific mechanistic claims before expanding the paper.
+
+No signature membership will be altered under any outcome.
+
+============================================================
+FIGURE POLICY
+============================================================
+
+CRISPR validation is not automatically assigned a new main figure.
+
+Placement will depend on evidence strength:
+- strong coherent evidence: main figure or major integrative panel;
+- moderate focused evidence: integrative main-figure panel;
+- heterogeneous/supporting evidence: supplementary figure/table.
+
+END OF FROZEN SPECIFICATION

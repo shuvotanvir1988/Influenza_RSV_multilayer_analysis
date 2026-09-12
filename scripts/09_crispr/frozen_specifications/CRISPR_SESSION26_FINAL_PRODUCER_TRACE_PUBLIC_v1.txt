@@ -1,0 +1,34 @@
+CRISPR SESSION 26 — PUBLIC PRODUCER TRACE SUMMARY
+Version: 1.0
+
+Purpose
+-------
+This file is the public provenance replacement for the original Session 26 CRISPR producer-trace artifact.
+
+The original trace was retained privately because it contains machine-specific paths, shell-history material, and local user identifiers that are not required for scientific reproducibility.
+
+Original private trace SHA256
+-----------------------------
+1a97ced48f265dc7c6c522ca9d5d243a40b0899b8446d5c0117df5b1d5e5e214
+
+Scientific provenance status
+----------------------------
+The original execution script that produced the historical Session 26 CRISPR integration result tables was not recovered.
+
+The public repository therefore provides:
+- the frozen CRISPR dataset register;
+- frozen scoring and analysis specifications;
+- the frozen validation input manifest;
+- the Session 26 provenance decision record;
+- compact snapshots of the final CRISPR result tables;
+- downstream manuscript integration scripts that use the frozen CRISPR outputs.
+
+The CRISPR result snapshots and frozen specifications are preserved as the authoritative reproducibility materials for this analysis layer.
+
+No reconstructed script is presented as the original Session 26 execution script.
+
+Privacy sanitization
+--------------------
+The original trace contained local Windows and Linux user paths and shell-history material. These machine-specific records were excluded from the public repository because they are not scientifically necessary.
+
+This public summary does not alter the frozen scientific results, CRISPR classifications, enrichment results, or manuscript conclusions.

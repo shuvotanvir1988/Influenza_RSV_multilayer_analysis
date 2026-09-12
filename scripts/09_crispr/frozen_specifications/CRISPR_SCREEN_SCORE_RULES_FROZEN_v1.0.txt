@@ -1,0 +1,174 @@
+SESSION 26 — SCREEN-SPECIFIC CRISPR SCORE RULES
+FROZEN v1.0
+
+This specification was created after structural/coverage QC but before
+inspection of frozen Paper 1 gene sets against CRISPR results.
+
+============================================================
+IAV-P01 — LI ET AL. 2020
+============================================================
+
+PRIMARY GENOME-WIDE ANALYSIS:
+
+Workbook:
+IAV-P01_Li2020_Supplementary_Data_1_ORIGINAL.xlsx
+
+Sheet:
+Secondary screen
+
+Genome-wide evaluable genes:
+18,291
+
+Primary ranking variable:
+screen p
+
+Supporting robustness variable:
+screen remainder p (leaving out strongest sgRNA)
+
+Rationale:
+Both variables are available genome-wide.
+
+The validation p-value is available for only 1,737 genes.
+Combined statistics are available for only 874 genes.
+
+Therefore:
+validation p, combined p, combined remainder p, and combined FDR
+MUST NOT be used as genome-wide ranking variables.
+
+They may be used only for secondary targeted-validation evidence.
+
+Primary-screen 41-gene table:
+Used as study-defined significant hit list.
+
+INTERPRETATION:
+Enrichment among low-HA/infection-resistant perturbations supports
+proviral host-dependency function.
+
+============================================================
+RSV-P01 — SUNSHINE ET AL. 2025 VIABILITY SCREEN
+============================================================
+
+Workbook:
+RSV-P01_Sunshine2025_Table_S2_ORIGINAL.xlsx
+
+Sheet:
+viability_screen_MAGeCK
+
+Genome-wide evaluable genes:
+20,916
+
+Primary functional direction:
+positive-selection/enrichment evidence associated with resistance to
+RSV-induced phenotype.
+
+Primary rank field:
+pos|rank
+
+Supporting fields:
+pos|score
+pos|p-value
+pos|fdr
+pos|lfc
+
+Negative-selection fields will be retained and analyzed separately
+where biologically interpretable.
+
+No positive and negative MAGeCK evidence will be collapsed into a
+single unsigned score.
+
+============================================================
+RSV-P02 — SUNSHINE ET AL. 2025 EARLY-INFECTION SCREEN
+============================================================
+
+Workbook:
+RSV-P01_Sunshine2025_Table_S2_ORIGINAL.xlsx
+
+Sheet:
+early_infection_screen_MAGeCK
+
+Genome-wide evaluable genes:
+20,915
+
+Primary functional direction:
+positive-selection/enrichment evidence among cells resistant to or
+showing reduced early RSV infection.
+
+Primary rank field:
+pos|rank
+
+Supporting fields:
+pos|score
+pos|p-value
+pos|fdr
+pos|lfc
+
+Negative-selection evidence will be retained separately.
+
+============================================================
+PRIMARY GENE-SET TESTS
+============================================================
+
+Primary:
+1. frozen 170-gene architecture
+2. frozen 130-gene shared core
+
+Secondary:
+3. frozen 37-gene influenza-amplified set
+
+Descriptive:
+4. frozen 3-gene RSV-amplified set
+
+============================================================
+RANK-BASED TESTING
+============================================================
+
+Gene-set enrichment will use complete genome-wide rankings wherever
+available.
+
+Empirical permutation will compare observed frozen-set rank statistics
+against random gene sets of identical size drawn from the evaluable
+screen universe.
+
+Primary rank summary:
+mean normalized rank / rank-based enrichment statistic.
+
+Additional sensitivity summaries may include:
+median normalized rank,
+top-1% enrichment,
+top-5% enrichment,
+top-10% enrichment.
+
+All threshold analyses are secondary to continuous rank analysis.
+
+============================================================
+MULTIPLE TESTING
+============================================================
+
+Primary hypotheses will be distinguished from secondary/sensitivity
+analyses.
+
+False-discovery correction will be applied within prespecified
+hypothesis families.
+
+============================================================
+MISSINGNESS
+============================================================
+
+Genes absent from a screen will be UNEVALUABLE, not unsupported.
+
+No missing CRISPR score will be imputed.
+
+============================================================
+CROSS-SCREEN PRINCIPLE
+============================================================
+
+Influenza and RSV are analyzed independently first.
+
+For RSV:
+viability and early-infection screens constitute separate functional
+phenotypes and will not initially be pooled.
+
+Cross-screen convergence will be assessed only after individual-screen
+results are frozen.
+
+END

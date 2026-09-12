@@ -1,0 +1,24 @@
+software	version	environment	version_basis	primary_use
+Python	3.12.13	influenza_rsv	current captured environment	Main Python analyses, QC, integration, validation, and figure/table workflows
+R	4.4.3	influenza_rsv	current captured environment	R-based statistical analyses
+limma	3.62.1	influenza_rsv	current captured R environment	Microarray differential expression, TF-activity testing, multiseason analysis, and proteomic modeling
+DESeq2	1.46.0	influenza_rsv	current captured R environment	Independent GSE155925 RNA-seq differential-expression analysis
+edgeR	4.4.0	influenza_rsv	current captured R environment	Single-cell pseudobulk differential-expression analysis
+fgsea	1.32.2	influenza_rsv	current captured R environment	Pathway enrichment analysis
+MCPcounter	1.1.0	influenza_rsv	current captured R environment	Immune-cell composition estimation
+decoupler	2.2.0	regulatory-analysis historical environment	frozen regulatory provenance	CollecTRI-based transcription-factor activity inference
+pandas	3.0.5	influenza_rsv	current runtime	Data manipulation and integration
+numpy	2.5.2	influenza_rsv	current Python runtime	Numerical computing
+scipy	1.18.0	influenza_rsv	current runtime	Statistical and numerical routines
+matplotlib	3.11.1	influenza_rsv	current runtime	Figure generation
+scikit-learn	1.9.0	influenza_rsv	current runtime	PCA and supporting statistical workflows
+openpyxl	3.1.5	influenza_rsv	current runtime	Spreadsheet generation and supplementary-table workflows
+Python	3.11.15	influenza_scrna_census	current captured environment	Single-cell census and localization workflows
+scanpy	1.11.5	influenza_scrna_census	current runtime	Single-cell analysis
+anndata	0.12.19	influenza_scrna_census	current runtime	Annotated single-cell data handling
+cellxgene-census	1.18.0	influenza_scrna_census	current runtime	CellxGene Census access
+tiledbsoma	2.3.0	influenza_scrna_census	current runtime	CellxGene Census data access backend
+pandas	2.3.3	influenza_scrna_census	current runtime	Single-cell data manipulation
+numpy	2.4.6	influenza_scrna_census	current runtime	Single-cell numerical computing
+scipy	1.17.1	influenza_scrna_census	current runtime	Single-cell numerical/statistical routines
+statsmodels	0.14.6	influenza_scrna_census	current captured environment	Statistical support package; also documented in historical regulatory environment
