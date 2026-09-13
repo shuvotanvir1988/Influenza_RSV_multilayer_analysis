@@ -51,16 +51,16 @@ Users are responsible for complying with the access, citation, licensing, and re
 
 ## Permanent links and identifiers
 
-The final public code-repository URL and permanent archival DOI will be added after repository release.
+The public code-repository URL is provided below. The permanent archival DOI will be added after archival release.
 
-Repository: [TO BE ADDED AFTER PUBLIC RELEASE]
+Repository: https://github.com/shuvotanvir1988/Influenza_RSV_multilayer_analysis
 
 Archived release DOI: [TO BE ADDED AFTER DOI REGISTRATION]
 
 ## Manuscript Data Availability statement
 
-A concise manuscript-facing Data Availability statement can be finalized after repository release as follows:
+A concise manuscript-facing Data Availability statement can be finalized after permanent archival as follows:
 
-> The datasets analyzed in this study are publicly available from their original repositories. Discovery transcriptomic data are available from GEO under accession GSE38900; independent RNA-seq validation data are available under GSE155925; single-cell datasets include GSE149689 and GSE283746; and influenza SomaScan proteomic data are available through Figshare record 27826857. Published influenza and RSV CRISPR-screen datasets were obtained from the sources cited in the manuscript. Study-specific code, provenance records, and reproducibility materials are available at [REPOSITORY URL] and archived at [ARCHIVE/DOI].
+> The datasets analyzed in this study are publicly available from their original repositories. Discovery transcriptomic data are available from GEO under accession GSE38900; independent RNA-seq validation data are available under GSE155925; single-cell datasets include GSE149689 and GSE283746; and influenza SomaScan proteomic data are available through Figshare record 27826857. Published influenza and RSV CRISPR-screen datasets were obtained from the sources cited in the manuscript. Study-specific code, provenance records, and reproducibility materials are available at https://github.com/shuvotanvir1988/Influenza_RSV_multilayer_analysis and archived at [ARCHIVE/DOI].
 
-The bracketed repository and archival identifiers should be replaced only after the corresponding public records exist.
+The archival DOI placeholders should be replaced only after the permanent archived release exists.

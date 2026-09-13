@@ -1,6 +1,6 @@
 # Code availability
 
-The computational code and reproducibility materials supporting this study are organized in this repository and are intended for public archival release with the associated manuscript.
+The computational code and reproducibility materials supporting this study are publicly available in this repository and will be permanently archived with the associated manuscript release.
 
 ## Repository contents
 
@@ -45,16 +45,16 @@ This limitation does not apply to the other analytical modules for which canonic
 
 ## Public archive
 
-The final public repository URL and permanent archival DOI will be added here after repository release and DOI registration.
+The public GitHub repository is available below. The permanent archival DOI will be added after DOI registration.
 
-Repository: [TO BE ADDED AFTER PUBLIC RELEASE]
+Repository: https://github.com/shuvotanvir1988/Influenza_RSV_multilayer_analysis
 
 Archived release DOI: [TO BE ADDED AFTER DOI REGISTRATION]
 
 ## Manuscript Code Availability statement
 
-Upon public release, the manuscript Code Availability statement can be finalized as follows:
+Following permanent archival, the manuscript Code Availability statement can be finalized as follows:
 
-> Custom code and reproducibility materials supporting this study are publicly available at [REPOSITORY URL] and have been archived at [ARCHIVE/DOI]. The repository includes canonical analysis and figure-generation scripts, workflow provenance maps, software-environment records, and SHA256 integrity manifests. The original execution script for the historical CRISPR integration step was not recovered; frozen analysis specifications, provenance records, and result snapshots for this step are provided in the repository. No other custom code restrictions apply.
+> Custom code and reproducibility materials supporting this study are publicly available at https://github.com/shuvotanvir1988/Influenza_RSV_multilayer_analysis and have been archived at [ARCHIVE/DOI]. The repository includes canonical analysis and figure-generation scripts, workflow provenance maps, software-environment records, and SHA256 integrity manifests. The original execution script for the historical CRISPR integration step was not recovered; frozen analysis specifications, provenance records, and result snapshots for this step are provided in the repository. No other custom code restrictions apply.
 
-The bracketed repository and archival identifiers should be replaced only after the corresponding public records exist.
+The archival DOI placeholders should be replaced only after the permanent archived release exists.

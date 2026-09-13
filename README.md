@@ -1,6 +1,6 @@
-# Influenza/RSV multilayer host-response analysis
+# Influenza-centered multilayer host-response analysis with comparative RSV analyses
 
-This repository contains the computational code, workflow provenance, software-environment records, and reproducibility materials associated with a multilayer analysis of human host responses to influenza and respiratory syncytial virus (RSV).
+This repository contains the computational code, workflow provenance, software-environment records, and reproducibility materials associated with an influenza-centered multilayer analysis with comparative respiratory syncytial virus (RSV) host-response analyses.
 
 The study integrates discovery transcriptomics, cross-platform replication, pathway analysis, immune-cell composition, transcription-factor activity inference, independent RNA-seq validation, multiseason validation, plasma proteomics, functional CRISPR evidence, single-cell localization, and multilayer evidence integration.
 
@@ -18,8 +18,6 @@ The principal directories are:
 - `workflow/` — execution order and script-to-output provenance maps
 - `requirements/` — Conda, Python, R, and software-version records
 - `provenance/` — SHA256 manifests and frozen decisions
-- `config/` — configuration materials
-- `example_outputs/` — selected reproducibility examples
 - `docs/` — detailed reproducibility documentation
 
 The `scripts/` reproducibility layer is organized into 13 modules, from dataset processing through manuscript tables.
@@ -168,13 +166,13 @@ The original execution script that generated the frozen Session 26 CRISPR result
 
 ## Code and data availability
 
-Detailed code-availability and data-availability information will be provided in the repository files `CODE_AVAILABILITY.md` and `DATA_AVAILABILITY.md`.
+Detailed code-availability and data-availability information is provided in `CODE_AVAILABILITY.md` and `DATA_AVAILABILITY.md`.
 
-Permanent repository identifiers and archival DOIs should be added only after the public repository and archival release have been created.
+The public GitHub repository is available at https://github.com/shuvotanvir1988/Influenza_RSV_multilayer_analysis. A permanent archival DOI will be added after the archived release is created.
 
 ## License
 
-License information will be provided in the repository `LICENSE` file.
+Original repository code and documentation are released under the MIT License; see `LICENSE`. Third-party materials remain subject to their original terms and licenses.
 
 ## Citation
 
